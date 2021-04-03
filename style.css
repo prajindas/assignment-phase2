@@ -1,0 +1,167 @@
+.bg-linear{
+    background-color: #004165;
+    color: #fff;
+}
+.carousel .carousel-item-1 {
+    height: 600px;
+
+  }
+  
+#mycarousel .carousel-item-1  img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 600px;
+  }
+
+#mycarousel .carousel-caption h1,#mycarousel .carousel-caption p{
+    /* text-align: right; */
+    color: #fff;
+    font-weight: 600;
+text-align: left;
+    /* background-color: #fff; */
+}  
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    grid-gap: 3px;
+}
+.grid img{
+    width:100%;
+}
+
+.carousel-item h5{
+    text-align: center;
+    font-size: large;
+    
+
+}
+.carousel-item .cell-1{
+    max-width: 300px;
+    align-items: center;
+ 
+}
+.over{
+    position: relative;
+    color: #fff;
+}
+.bottom{
+    position: absolute;
+    top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-map{
+    max-width: 250px;
+}
+
+.about-carousel{
+    height: 200px;
+}
+
+.img-dis{
+    max-height: 200px;
+    min-width: 350px;
+}
+
+.district{
+    position: relative;
+    color: #fff;
+}
+.district h4{
+    position: absolute;
+    top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-dissub{
+    border: 4px solid #004165;
+}
+.bg-yellow{
+    background-color: #fbc834;;
+}
+.bg-sign{
+  color: #004165;
+}
+.h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #004165;
+}
+.h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+}
+.h5{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #004165;
+}
+
+.bg-img{
+    background-image: url(img/dfdsfsf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.in-color{
+    border-color: #fbc834;
+}
+
+.in-color-danger{
+    border-color: red;
+}
+#progress{
+    display: none;
+}
+#msg-2{
+    display: none;
+}
+.msg-2{color: red;}
+
+#alert-name{
+    display: none;
+}
+#alert-email{
+    display: none;
+}
+#alert-phone{
+    display: none;
+}
+#alert-password{
+    display: none;
+}
+@media (max-width: 576px) { 
+    
+    .carousel .carousel-item-1 {
+        height: 310px;
+    }
+  
+    #mycarousel .carousel-item-1  img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+    }
+    .grid{
+    
+        grid-template-columns:50% 50%;
+
+        grid-gap: 3px;
+    }
+    .carousel-item h5{
+        text-align: center;
+        font-size: small;
+    
+    }
+    .img-dis{
+        min-height: 80px;
+        min-width: 100px;
+    }
+ }
